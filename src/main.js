@@ -1,0 +1,20 @@
+import './styles/variables.css';
+import './styles/base.css';
+import './styles/layout.css';
+import './styles/components.css';
+import './styles/responsive.css';
+import { initNavigation } from './scripts/navigation.js';
+import { initSchedule } from './scripts/schedule.js';
+import { initMemberships } from './scripts/memberships.js';
+import { initDirections } from './scripts/directions.js';
+import { initQuiz } from './scripts/quiz.js';
+import { initFaq } from './scripts/faq.js';
+import { initGallery } from './scripts/gallery.js';
+import { initReviews } from './scripts/reviews.js';
+import { initBooking } from './scripts/booking.js';
+import { initMotion } from './scripts/animations.js';
+import { initCookies, initContacts } from './scripts/extras.js';
+
+const booking = initBooking();
+initNavigation(); initSchedule(booking); initMemberships(booking); initDirections(); initQuiz(booking);
+initFaq(); initGallery(); initReviews(); initMotion(); initCookies(); initContacts();

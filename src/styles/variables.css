@@ -1,0 +1,7 @@
+:root{
+  --carbon:#171819;--white:#F4F3EF;--orange:#FF5A1F;--graphite:#292B2D;--steel:#85888A;--lime:#D8FF3E;
+  --ink-soft:#4b4e50;--line-dark:rgba(244,243,239,.12);--line-light:rgba(23,24,25,.12);
+  --f-head:'Oswald','Arial Narrow',Impact,sans-serif;--f-body:'Manrope',system-ui,-apple-system,'Segoe UI',Arial,sans-serif;
+  --pad:clamp(20px,5vw,72px);--sec:clamp(72px,9vw,136px);--r:20px;--rs:clamp(24px,4vw,56px);--hdr:76px;
+  --ease:cubic-bezier(.22,1,.36,1);--soft:0 24px 60px -24px rgba(0,0,0,.55);
+}
